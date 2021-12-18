@@ -3,7 +3,9 @@ on: [push]
 jobs:
   unit-tests:
     runs-on: debian-latest
-    working-directory: website
+    defaults:
+      run:
+        working-directory: website
     services:
       mongodb:
         image: mongo
