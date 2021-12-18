@@ -5,7 +5,8 @@ Project of Charles HAMERY and Jean-Benoît RICHEZ
   - [ ] Unit test working
 
 2. CI/CD
-3. IaC approach
-4. Docker app
+  - [X] Implemented with github's action
+4. IaC approach
+5. Docker app
 - [x] Working
 - [x] Pushed to hub: [link](https://hub.docker.com/repository/docker/jbrichez/richam)
