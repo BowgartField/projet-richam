@@ -1,16 +1,9 @@
 version: "3"
 services:
   node:
-    image: "node:8"
-    user: "node"
-    working_dir: /home/node/app
-    environment:
-      - NODE_ENV=production
-    volumes:
-      - ./:/home/node/app
-    expose:
-      - "8080"
-    command: "npm start"
+    build: .
+    ports:
+     - 3000:3000
     container_name: nodejs_Richam
   mongodb:
     image : mongo
