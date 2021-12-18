@@ -2,9 +2,9 @@ Project of Charles HAMERY and Jean-Benoît RICHEZ
 
 1. Web APP
 
-[X] App working
-[ ] Unit test working
+- [x] App working
+- [ ] Unit test working
 
 4. Docker app
 
-[X] Working
+- [x] Working
