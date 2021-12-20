@@ -27,6 +27,6 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "scripts/install_nodejs.sh"
   config.vm.provision "shell", path: "scripts/install_git.sh"
   config.vm.provision "shell", path: "scripts/install_mongodb.sh"
-
+  config.vm.provision "shell", path: "scripts/install_website.sh"
 
 end
