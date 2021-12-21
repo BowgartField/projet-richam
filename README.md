@@ -2,10 +2,12 @@ Project of Charles HAMERY and Jean-Benoît RICHEZ
 
 1. Web APP
   - [x] App working
+  - [ ] Storage on Mongodb
   - [ ] Unit test working
 
 2. CI/CD
-  - [X] Implemented with github's action
+  - [X] CI Implemented with github's action
+  - [ ] CD
 3. IaC approach
   - [X] Deployement 
   - [ ] Running
