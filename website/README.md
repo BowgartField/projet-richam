@@ -5,3 +5,5 @@ Website for the projet
 You can launch it with `yarn dev` and look at http://localhost:3000
 
 And run tests with `yarn test`
+
+OR `yarn build` and `yarn start` to run compiled application
