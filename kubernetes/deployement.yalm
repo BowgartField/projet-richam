@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployement
+metadate: 
+  name: nodejs-deployement
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+         app: nodejs
+    spec:
+      containers:
+      - name: nodejs
+        image: jbrichez/richam
+        ports:
+        - containerPort: 8080
