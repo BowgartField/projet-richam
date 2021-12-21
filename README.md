@@ -2,7 +2,7 @@ Project of Charles HAMERY and Jean-Benoît RICHEZ
 
 1. Web APP
   - [x] App working
-  - [ ] Storage on Mongodb
+  - [x] Storage on Mongodb
   - [ ] Unit test working
 
 2. CI/CD
